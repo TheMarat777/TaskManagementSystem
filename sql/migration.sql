@@ -36,7 +36,7 @@ create table tasks
     foreign key (workspace_id) references workspaces (workspace_id)
 );
 
-create table task_asignee
+create table task_asignees
 (
     user_id smallint not null,
     task_id smallint not null,
