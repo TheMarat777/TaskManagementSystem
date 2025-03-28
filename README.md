@@ -1,31 +1,19 @@
-# Task Management System 🗂️
+# Task Management System
 
-A RESTful Client-Server System built as part of a university group project, aimed at managing team members and tasks efficiently.
+This is a RESTful Client-Server system developed as part of a semester project by a team of five Software Engineering students at VIA University College. The goal of the application is to manage tasks and distribute them among team members efficiently.
 
 ## 🛠️ Technologies Used
 
-- **Backend**: Java Spring Boot
-- **Frontend**: React with TypeScript
-- **Database**: PostgreSQL
-- **DevOps**: Docker, Docker Compose, Kubernetes (Minikube), GitHub Actions (CI/CD)
+- **Java** — main programming language
+- **Spring Boot** — used to build the backend RESTful API
+- **Maven** — for dependency and project management
+- **SQL** — used for creating and managing the database
+- **Git** — for version control and collaboration
 
-## 📦 Features
+## 💡 Key Features
 
-- Create, read, update, delete (CRUD) for tasks and team members
-- RESTful API for backend communication
-- PostgreSQL integration for persistent storage
-- Dockerized for container-based development
-- Kubernetes deployment using Kompose
-- CI/CD pipeline for streamlined deployments
-
-## 👥 Team & Collaboration
-
-Developed in a team of five using Scrum methodology, Jira for task tracking, and Git for version control.
-
-## 🚀 Getting Started
-
-### Clone the repo
-
-```bash
-git clone https://github.com/TheMarat777/TaskManagementSystem.git
-cd TaskManagementSystem
+- Add, update, and delete team members and tasks
+- Assign tasks to specific team members
+- Track task completion status
+- Retrieve task lists by member or status
+- RESTful endpoints for smooth communication between client and server
